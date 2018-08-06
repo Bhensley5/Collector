@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		B84F95901F2044660059AC44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84F958F1F2044660059AC44 /* AppDelegate.swift */; };
-		B84F95921F2044660059AC44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84F95911F2044660059AC44 /* ViewController.swift */; };
 		B84F95951F2044660059AC44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84F95931F2044660059AC44 /* Main.storyboard */; };
 		B84F95981F2044660059AC44 /* Collector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B84F95961F2044660059AC44 /* Collector.xcdatamodeld */; };
 		B84F959A1F2044660059AC44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B84F95991F2044660059AC44 /* Assets.xcassets */; };
 		B84F959D1F2044660059AC44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84F959B1F2044660059AC44 /* LaunchScreen.storyboard */; };
+		B84F95A51F2049720059AC44 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84F95A41F2049720059AC44 /* AddItemViewController.swift */; };
+		B84F95A71F204F640059AC44 /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84F95A61F204F640059AC44 /* ItemsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B84F958C1F2044660059AC44 /* Collector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Collector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B84F958F1F2044660059AC44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B84F95911F2044660059AC44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B84F95941F2044660059AC44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B84F95971F2044660059AC44 /* Collector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Collector.xcdatamodel; sourceTree = "<group>"; };
 		B84F95991F2044660059AC44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B84F959C1F2044660059AC44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B84F959E1F2044660059AC44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B84F95A41F2049720059AC44 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		B84F95A61F204F640059AC44 /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				B84F958F1F2044660059AC44 /* AppDelegate.swift */,
-				B84F95911F2044660059AC44 /* ViewController.swift */,
+				B84F95A61F204F640059AC44 /* ItemsTableViewController.swift */,
+				B84F95A41F2049720059AC44 /* AddItemViewController.swift */,
 				B84F95931F2044660059AC44 /* Main.storyboard */,
 				B84F95991F2044660059AC44 /* Assets.xcassets */,
 				B84F959B1F2044660059AC44 /* LaunchScreen.storyboard */,
@@ -139,8 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B84F95981F2044660059AC44 /* Collector.xcdatamodeld in Sources */,
-				B84F95921F2044660059AC44 /* ViewController.swift in Sources */,
 				B84F95901F2044660059AC44 /* AppDelegate.swift in Sources */,
+				B84F95A71F204F640059AC44 /* ItemsTableViewController.swift in Sources */,
+				B84F95A51F2049720059AC44 /* AddItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
