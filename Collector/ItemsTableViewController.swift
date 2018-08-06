@@ -18,7 +18,9 @@ class ItemsTableViewController: UITableViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        
         getItems()
+        
     }
     
     func getItems() {
